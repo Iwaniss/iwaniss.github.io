@@ -187,7 +187,7 @@ ul.timeline-3 {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #9d34ff;
+  color: #ffbf00 ;
   margin-bottom: 10px;
 }
 
@@ -222,8 +222,8 @@ ul.timeline-3 {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #9d34ff;
-  border: 2px solid #9d34ff;
+  background: #ffbf00;
+  border: 2px solid #ffbf00;
 }
 
 #kontak{
