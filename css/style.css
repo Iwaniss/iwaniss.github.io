@@ -8,13 +8,20 @@ body{
   height: 100%;
 }
 
+img { 
+  filter: grayscale(100%);
+}
 
 /* setting font */
 h1{
-  color: #ffbf00;
+  /* color: #ffbf00; */
+  color: grey;
   font-weight: 700;
   font-size: 28px;
 }
+/* h1:hover{
+  filter: saturate(200%) drop-shadow(10px 10px 10px #3a3a3a);
+} */
 h2{
   color: #fff;
   font-weight: 700;
@@ -110,6 +117,10 @@ ul.timeline-3 > li:before {
   width: 100%;
 }
 
+#banner .about-img img:hover{
+  filter: saturate(100%);
+}
+
 #tentang{
   padding-top: 6rem;
   background: var(--primary-color);
@@ -125,9 +136,12 @@ ul.timeline-3 > li:before {
 filter: saturate(200%) drop-shadow(10px 10px 10px #3a3a3a);
 
 }
-#tentang .img-tentang{
-  width: auto;
-  height: auto;
+#tentang .img-tentang img:hover{
+  filter: saturate(200%) drop-shadow(10px 10px 10px #3a3a3a);
+}
+
+#tentang .img-personality  img:hover{
+  filter: saturate(200%) drop-shadow(10px 10px 10px #3a3a3a);
 }
 
 #projectku .img-project{
@@ -239,8 +253,13 @@ color: #fff;
 
 .img-kontak{
   position: relative;
-margin-top: -1.5rem;
+  margin-top: -1.5rem;
   margin: auto;
+  
+}
+
+#kontak .img-kontak img:hover{
+  filter: saturate(200%) ;
 }
 
 .card-kontak{
@@ -285,6 +304,7 @@ background-position: center center;
   bottom: 0;
   left: 0;
   background: inherit;
+  /* rubah warna grey */
   /* -webkit-filter: grayscale(1);
 -moz-filter: grayscale(100%);
 -ms-filter: grayscale(100%);
